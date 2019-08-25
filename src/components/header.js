@@ -40,7 +40,7 @@ const HeaderStyled = styled.header`
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     ${Title}, ${Nav} {
       width: 90%;
     }
