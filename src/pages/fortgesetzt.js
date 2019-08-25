@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {
@@ -12,21 +12,6 @@ import {
   LinkWrapper,
 } from "../styles/BodyTextStyles"
 import { ImageWrapper } from "../styles/ImageWrapper"
-const StartImage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "Illustration1.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1800) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-}
 
 const Title = styled.header`
   background-color: ${props => props.theme.primary};
@@ -40,12 +25,27 @@ const Title = styled.header`
     font-weight: 300;
   }
 `
+const InformierePic = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "Illustration2.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1800) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
 
-const IndexPage = () => (
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+}
+
+const Fortgesetzt = () => (
   <Layout>
-    <SEO title="Startseit" />
+    <SEO title="Fortgesetzt" />
     <ImageWrapper>
-      <StartImage />
+      <InformierePic />
     </ImageWrapper>
     <Title>
       <p>
@@ -94,11 +94,14 @@ const IndexPage = () => (
       </QuoteText>
     </BodyText>
     <LinkWrapper>
-      <Link to="/fortgesetzt">
+      <Link to="/">
+        <h1>züruck</h1>
+      </Link>
+      <Link to="/informiere-dich">
         <h1>weiter</h1>
       </Link>
     </LinkWrapper>
   </Layout>
 )
 
-export default IndexPage
+export default Fortgesetzt
