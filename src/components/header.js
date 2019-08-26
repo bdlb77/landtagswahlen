@@ -3,7 +3,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Title = styled.div`
-  width: 50%;
+  width: 60%;
   margin-left: 15rem;
   h1 {
     font-size: 10rem;
