@@ -1,14 +1,14 @@
 import styled from "styled-components"
 
 const NormalText = styled.p`
-  font-weight: 400;
+  font-weight: 600;
   span {
     font-size: 3.5rem;
     font-weight: 200;
   }
 `
 const QuoteText = styled.p`
-  font-weight: 250;
+  font-weight: 200;
   font-size: 3rem;
   width: 80%;
   text-align: center;

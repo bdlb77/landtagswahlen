@@ -44,8 +44,8 @@ const Footer = styled.footer`
     padding: 1rem 2rem;
   }
   p {
-    font-weight: 400;
-    font-size: 1.9rem;
+    font-weight: 600;
+    font-size: 2rem;
     opacity: 0.8;
   }
 `
@@ -234,8 +234,8 @@ const InformiereDich = () => (
           und andere Erfahrungsberichte können hilfen. Bei Alltagsrassismus und
           rechten Tendenzen gilt es: den Opfern dessen zuzuhören und deren
           Grenzen zu akzeptieren! Wir alle müssen uns immer wieder. Hilfreich
-          dafür: die Beiträge unter dem Hashtag <strong>#MeToo!</strong> :
-          lesen, zuhören, lernen!
+          dafür: die Beiträge unter dem Hashtag <bold>#MeToo!</bold> : lesen,
+          zuhören, lernen!
         </p>
         <p>
           Das Thema Alltagsrassiusmus immer auf die Agenda holen. Wir müssen

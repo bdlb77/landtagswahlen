@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 import Header from "./header"
-import { FuturaTTF } from "../config/fonts"
+import { FuturaMedItalic, GaramondOTF } from "../config/fonts"
 const theme = {
   primary: "rgb(231, 103, 64)",
   secondary: "rgb(253, 234, 226)",
@@ -24,14 +24,17 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Futura-Italic';
     font-style: italic;
-    font-weight: 200;
-    src: local('Futura italic'), local('Futura-Italic'), url(${FuturaTTF}) format('ttf');
+    src: local('Futura italic'), local('Futura-Italic'), url(${FuturaMedItalic}) format('truetype');
+  }
+  @font-face {
+    font-family: 'Garamond';
+    src: local('Garamond'), url(${GaramondOTF}) format('opentype');
   }
 
   html{
     box-sizing: border-box;
     font-size: 8px;
-    font-family: sans-serif;
+    font-family: 'Futura Italic', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
@@ -39,7 +42,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Futura-Italic', sans-serif;
   }
   p {
-    font-family: 'garamond', sans-serif;
+    font-family: 'Garamond', sans-serif !important;
     font-size: 2.5rem;
   }
   *, *:before, *:after {

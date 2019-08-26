@@ -3,15 +3,18 @@ import React from "react"
 import styled from "styled-components"
 
 const Title = styled.div`
-  width: 55%;
+  width: 50%;
+  margin-left: 15rem;
   h1 {
+    font-size: 10rem;
     font-style: italic;
-    font-weight: normal;
-    font-size: 6rem;
     color: ${props => props.theme.primary};
+    font-weight: 400;
+    margin-bottom: 0rem;
   }
   p {
-    font-size: 3rem;
+    margin-top: 0;
+    font-size: 3.5rem;
     font-weight: lighter;
   }
 `
@@ -20,12 +23,15 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-evenly;
   width: 50%;
-  margin-left: -15rem;
   margin-bottom: 5rem;
 
   a {
-    padding: 0 2rem;
+    padding: 1rem 2.5rem;
     background-color: ${props => props.theme.secondary};
+    h3 {
+      margin: 0;
+      font-style: italic;
+    }
   }
 `
 const HeaderStyled = styled.header`
@@ -50,7 +56,7 @@ const HeaderStyled = styled.header`
     p {
       font-size: 1.5rem;
     }
-    ${Nav} {
+    ${Nav}, ${Title} {
       margin-left: 0;
     }
     a {
@@ -69,11 +75,16 @@ const Header = () => (
     </Title>
 
     <Nav>
-      <Link to="/">Startseite</Link>
-      <Link to="informiere-dich">Informiere Dich</Link>
-      <Link to="https://www.handgeschrieben-verlag.net" target="_blank">
-        handgeschrieben
+      <Link to="/">
+        <h3>Startseite</h3>
       </Link>
+      <Link to="informiere-dich">
+        <h3>Informiere Dich</h3>
+      </Link>
+
+      <a href="https://www.handgeschrieben-verlag.net" target="_blank">
+        <h3> Handgeschrieben</h3>
+      </a>
     </Nav>
   </HeaderStyled>
 )
