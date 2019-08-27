@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
-import styled, {keyframes} from "styled-components"
+import styled, { keyframes } from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Lulu from "../images/a.jpg"
@@ -88,6 +88,7 @@ const InfoSection = styled.section`
   }
 
   @media screen and (max-width: 1024px) {
+    width: 100%;
     .pen {
       transform: rotate(-18deg);
     }
@@ -183,19 +184,19 @@ const Pen = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-const useAudio = (audioFile) => {
-  const [audio] = useState(new Audio(audioFile));
-  const [playing, setPlay] = useState(false);
-  
-  const togglePlay = () => setPlay(!playing);
+const useAudio = audioFile => {
+  const [audio] = useState(new Audio(audioFile))
+  const [playing, setPlay] = useState(false)
+
+  const togglePlay = () => setPlay(!playing)
 
   useEffect(() => {
-    playing ? audio.play() : audio.pause();
-  }, [playing]);
-  return [playing, togglePlay];
+    playing ? audio.play() : audio.pause()
+  }, [playing])
+  return [playing, togglePlay]
 }
 const InformiereDich = () => {
-  const [playing, togglePlay] = useAudio(LuluAudio);
+  const [playing, togglePlay] = useAudio(LuluAudio)
   return (
     <Layout>
       <SEO title="Informiere Dich" />
