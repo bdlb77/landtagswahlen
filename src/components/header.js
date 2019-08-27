@@ -52,17 +52,26 @@ const HeaderStyled = styled.header`
       width: 90%;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 49px;
+      text-align: center;
     }
     p {
-      font-size: 1.5rem;
+      font-size: 24px;
+      text-align: center;
     }
     ${Nav}, ${Title} {
       margin-left: 0;
     }
     a {
-      font-size: 1.5rem;
-      padding: 0;
+      font-size: 20px;
+      padding: 1rem;
+      width: 200px;
+    }
+    ${Nav} {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 200px;
     }
   }
 `

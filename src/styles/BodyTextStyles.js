@@ -48,6 +48,7 @@ const Title = styled.header`
   }
 
   @media screen and (max-width: 450px) {
+    margin: 0;
     p {
       width: 90%;
       font-size: 2.5rem;
