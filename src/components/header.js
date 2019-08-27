@@ -16,6 +16,7 @@ const Title = styled.div`
     margin-top: 0;
     font-size: 3.5rem;
     font-weight: lighter;
+    font-family: "Garamond";
   }
 `
 

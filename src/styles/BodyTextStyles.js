@@ -2,17 +2,18 @@ import styled from "styled-components"
 
 const NormalText = styled.p`
   font-weight: 600;
+  font-size: 21px;
   span {
-    font-size: 3.5rem;
     font-weight: 200;
   }
 `
 const QuoteText = styled.p`
   font-weight: 200;
   font-size: 3rem;
-  width: 80%;
   text-align: center;
   margin: 0 auto;
+  font-family: "Garamond";
+  font-size: 30px;
 `
 
 const LinkWrapper = styled.div`
@@ -43,6 +44,7 @@ const Title = styled.header`
     width: 50%;
     margin: 0 auto;
     font-weight: 300;
+    font-family: "Garamond";
   }
 
   @media screen and (max-width: 450px) {
@@ -56,7 +58,7 @@ const BodyText = styled.section`
   width: 50%;
   margin: 8rem auto;
   font-size: 2.5rem;
-
+  font-family: "Futura";
   @media screen and (max-width: 450px) {
     width: 95%;
     ${NormalText} {

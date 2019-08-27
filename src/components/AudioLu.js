@@ -2,16 +2,16 @@ import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import LuluAudio from "../media/audio.mp3"
 
-// const useAudio = audioFile => {
-//   const [audio] = useState(new Audio(audioFile))
-//   const [playing, setPlay] = useState(false)
-//   const togglePlay = () => setPlay(!playing)
+const useAudio = audioFile => {
+  const [audio] = useState(new Audio(audioFile))
+  const [playing, setPlay] = useState(false)
+  const togglePlay = () => setPlay(!playing)
 
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause()
-//   }, [playing])
-//   return [playing, togglePlay]
-// }
+  useEffect(() => {
+    playing ? audio.play() : audio.pause()
+  }, [playing])
+  return [playing, togglePlay]
+}
 const Svg = styled.svg`
   height: 75px;
   width: 75px;
@@ -19,8 +19,7 @@ const Svg = styled.svg`
 `
 
 const AudioLu = () => {
-  // const [playing, togglePlay] = useAudio(LuluAudio)
-
+  const [playing, togglePlay] = useAudio(LuluAudio)
   return (
     <Svg
       version="1.0"
@@ -29,7 +28,7 @@ const AudioLu = () => {
       height="1021.000000pt"
       viewBox="0 0 1280.000000 1021.000000"
       preserveAspectRatio="xMidYMid meet"
-      // onClick={togglePlay && togglePlay}
+      onClick={togglePlay && togglePlay}
     >
       <metadata>
         Created by potrace 1.15, written by Peter Selinger 2001-2017
