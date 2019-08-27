@@ -16,6 +16,7 @@ const theme = {
   secondary: "rgb(253, 234, 226)",
   black: "rgb(0, 0, 0)",
   white: "rgb(255, 255,255)",
+  accent: "rgb(142, 206, 255)",
   maxWidth: "1000px",
   lgBreak: "1300px",
 }

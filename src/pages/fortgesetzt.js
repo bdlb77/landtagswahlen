@@ -116,9 +116,9 @@ const Fortgesetzt = () => (
     </BodyText>
     <LinkWrapper>
       <Link to="/">
-        <h1>züruck</h1>
+        <h1>zurück</h1>
       </Link>
-      <Link to="/informiere-dich">
+      <Link to="/seite-3">
         <h1>weiter</h1>
       </Link>
     </LinkWrapper>
