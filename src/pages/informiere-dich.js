@@ -239,9 +239,9 @@ const InformiereDich = () => {
             <p>
               Unbedingt lesen „Es kann auf eine dämonische Art befreiend sein,
               wenn von dir und den Leuten um dich herum nur noch das
-              Schlechteste erwartet wird.“ –
+              Schlechteste erwartet wird.“ –{" "}
               <a href="https://taz.de/Jugendliche-in-Ostdeutschland/!5536453/">
-                aus einem
+                aus einem Artikel
               </a>
               , der mich sprachlos macht. Der Fragen aufwirft. An meine
               Verwandtschaft. Wir müssen darüber reden! „Sitzen wir lieber mit

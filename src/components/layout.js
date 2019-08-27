@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 import Header from "./header"
-import { FuturaMedItalic, MyriadProRegOTF } from "../config/fonts"
+import { FuturaMedItalic, MyriadProRegOTF, GaramondOTF } from "../config/fonts"
 const theme = {
   primary: "rgb(231, 103, 64)",
   secondary: "rgb(253, 234, 226)",
@@ -30,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Myriad-Pro';
     src: local('Myriad-Pro'), url(${MyriadProRegOTF}) format('opentype');
+  }
+  @font-face {
+    font-family: 'Garamond';
+    src: local('Garamond'), url(${GaramondOTF}) format('opentype');
   }
 
   html{
