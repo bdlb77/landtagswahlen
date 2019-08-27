@@ -9,11 +9,11 @@ const Svg = styled.svg`
 `
 
 const useAudio = audioFile => {
-  const [audio, setAudio] = useState({})
+  const [audio, setAudio] = useState(null)
   const [playing, setPlay] = useState(false)
   const togglePlay = () => setPlay(!playing)
   useEffect(() => {
-    setAudio(new Audio(LuluAudio))
+    if (window !== undefined) setAudio(new Audio(LuluAudio))
   }, [])
   useEffect(() => {
     if (audio) {
