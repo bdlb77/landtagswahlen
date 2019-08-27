@@ -211,26 +211,23 @@ const InformiereDich = () => {
             </p>
             <p>
               Immer wieder aber trifft man auf Titeln wie
-              diesen:„Rechtsextremismus - Der Osten muss erst mal seine eigene
-              Geschichte aufarbeiten“ (
+              diesen:„Rechtsextremismus - Der Osten muss erst mal seine eigene{" "}
               <a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2019-03/rechts-extremismus-ostdeutschland-verantwortung-erwiderung">
-                https://www.zeit.de/gesellschaft/zeitgeschehen/2019-03/rechts-extremismus-ostdeutschland-verantwortung-erwiderung
+                Geschichte aufarbeiten
               </a>
-              ) . Die in den Köpfen immer noch existierende Spaltung verstärkt
+              “. Die in den Köpfen immer noch existierende Spaltung verstärkt
               und die Verantwortlichkeit ganz klar an eine Seite haftet. Dennoch
               schafft es der Artikel, differenziert zu sein.
             </p>
             <p>
-              Auch Puls hat einen Erklärungsversuch gewagt (
-              <a href="https://www.youtube.com/-watch?v=3paOFE33UNE">
-                https://www.youtube.com/-watch?v=3paOFE33UNE
-              </a>
-              ) und einen kurzen Beitrag des WDR möchte ich euch als groben
-              Einstieg in die Thematik außerdem ans Herz legen (
+              Auch Puls hat einen Erklärungsversuch{" "}
+              <a href="https://www.youtube.com/-watch?v=3paOFE33UNE">gewagt</a>{" "}
+              und einen kurzen Beitrag des WDR möchte ich euch als groben
+              Einstieg in die Thematik außerdem ans{" "}
               <a href="https://www1.w-dr.de/mediathek/video/sendungen/aktuelle-stun-de/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html">
-                https://www1.w-dr.de/mediathek/video/sendungen/aktuelle-stun-de/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html
+                Herz legen
               </a>
-              ) .
+              .
             </p>
             <p>
               Besonders ab Minute vier wird aktiv dazu aufgerufen, auf einander
@@ -242,11 +239,11 @@ const InformiereDich = () => {
             <p>
               Unbedingt lesen „Es kann auf eine dämonische Art befreiend sein,
               wenn von dir und den Leuten um dich herum nur noch das
-              Schlechteste erwartet wird.“ – aus einem (
+              Schlechteste erwartet wird.“ –
               <a href="https://taz.de/Jugendliche-in-Ostdeutschland/!5536453/">
-                https://taz.de/Jugendliche-in-Ostdeutschland/!5536453/
+                aus einem
               </a>
-              ), der mich sprachlos macht. Der Fragen aufwirft. An meine
+              , der mich sprachlos macht. Der Fragen aufwirft. An meine
               Verwandtschaft. Wir müssen darüber reden! „Sitzen wir lieber mit
               einem uns vertrauten Rechtsext- remen am Tisch und tun so, als
               wäre alles normal oder stellen wir ihn und damit auch uns selbst
@@ -274,29 +271,25 @@ const InformiereDich = () => {
 
             <p>
               Auf dem Blog des Politologen und Landtagsabgeordneten Lasse Pet-
-              ersdotter könnt ihr Euch kostenfrei eine Argumentationshilfe als
-              PDF (
+              ersdotter könnt ihr Euch kostenfrei eine Argumentationshilfe als{" "}
               <a href="http://lasse-petersdotter.de/rechtspopulismus-beim-weihnachts-essen-eine-argumentationshilfe/">
-                http://lasse-petersdotter.de/rechtspopulismus-beim-weihnachts-essen-eine-argumentationshilfe/
-              </a>
-              )herunter laden, die ganz konkret auf ein Familienessen
+                PDF
+              </a>{" "}
+              herunter laden, die ganz konkret auf ein Familienessen
               ausgerichtet ist.
             </p>
             <p>
-              Besonders Beeindruckt hat mich die Initiative Kleiner Fünf (
-              <a href="https://www.kleinerfuenf.de/de">
-                https://www.kleinerfuenf.de/de
-              </a>
-              ) die sich seit den Bundestagswahlen 2017 gegen rechtpopulistische
-              Parteien einsetzen. Das Team aus mitt- lerweile mehr als 100
-              jungen, engagierten Menschen stellt jedem kos- tenfrei eine Fülle
-              an Informationen und Diskutionsleitfäden zur Verfü- gung. Alle
-              Materialien findet ihr hier (
+              Besonders Beeindruckt hat mich die Initiative{" "}
+              <a href="https://www.kleinerfuenf.de/de">Kleiner Fünf</a> die sich
+              seit den Bundestagswahlen 2017 gegen rechtpopulistische Parteien
+              einsetzen. Das Team aus mitt- lerweile mehr als 100 jungen,
+              engagierten Menschen stellt jedem kos- tenfrei eine Fülle an
+              Informationen und Diskutionsleitfäden zur Verfü- gung. Alle
+              Materialien findet ihr{" "}
               <a href="https://www.kleinerfuenf.-de/de/unsere-materialien-fuer-dich">
-                https://www.kleinerfuenf.-de/de/unsere-materialien-fuer-dich
-              </a>
-              ) – unbedingt reinschauen, aufs Smartphone ziehen und
-              verinnerlichen
+                hier
+              </a>{" "}
+              – unbedingt reinschauen, aufs Smartphone ziehen und verinnerlichen
             </p>
           </GesprachSection>
           <KannSection>
@@ -313,29 +306,27 @@ const InformiereDich = () => {
             </p>
             <p>
               Überprüfe Dich selbst immer wieder - Deinen Humor, Deine Grenzen.
-              Welche Aussagen akzeptierst Du? Sensiblere Dich! Solche Videos (
-              <a href="https://www.youtube.com/watch?v=ZdPk-vfD-iM">
-                https://www.youtube.com/watch?v=ZdPk-vfD-iM
-              </a>
-              ) und andere Erfahrungsberichte können helfen, immer wieder
-              Empathie zu lernen. Bei Alltagsrassismus und rechten Tendenzen
-              gilt es: den Opfern zuzuhören und deren Grenzen zu akzeptieren!
-              Hilfreich dafür auch: die Beiträge unter dem Hashtag{" "}
-              <span>#MeToo</span>! : lesen, zuhören, lernen!
+              Welche Aussagen akzeptierst Du? Sensiblere Dich! Solche{" "}
+              <a href="https://www.youtube.com/watch?v=ZdPk-vfD-iM">Videos</a>{" "}
+              und andere Erfahrungsberichte können helfen, immer wieder Empathie
+              zu lernen. Bei Alltagsrassismus und rechten Tendenzen gilt es: den
+              Opfern zuzuhören und deren Grenzen zu akzeptieren! Hilfreich dafür
+              auch: die Beiträge unter dem Hashtag <span>#MeToo</span>! : lesen,
+              zuhören, lernen!
             </p>
             <p>
               Das Thema Alltagsrassiusmus immer auf die Agenda holen. Wir müssen
               rassismus- kritisch denken lernen und uns Umgang damit
-              weiterbilden. Seminare (
+              weiterbilden.{" "}
               <a href="http://www.buendnis-toleranz.de/archiv/themen/gewaltpraeventi-on/170778/seminar-zum-thema-rechtspopulismus-erkennen-und-bekaempfen-jetzt-anmelden">
-                http://www.buendnis-toleranz.de/archiv/themen/gewaltpraeventi-on/170778/seminar-zum-thema-rechtspopulismus-erkennen-und-bekaempfen-jetzt-anmelden
-              </a>
-              ) und Workshops helfen dabei ungemein. Du kannst beispielsweise
-              einen entsprechenden Workshop (
+                Seminare
+              </a>{" "}
+              und Workshops helfen dabei ungemein. Du kannst beispielsweise
+              einen entsprechenden{" "}
               <a href="https://detektor.fm/gesellschaft/rassis-mus-workshops">
-                https://detektor.fm/gesellschaft/rassis-mus-workshops
-              </a>
-              ) in Deiner Firma initiieren.
+                Workshop
+              </a>{" "}
+              in Deiner Firma initiieren.
             </p>
           </KannSection>
         </GridWrapper>
@@ -343,27 +334,24 @@ const InformiereDich = () => {
           <div className="info">
             <h1>Infomaterial</h1>
             <p>
-              Was bedeutet Diskriminierung und in welchen Formen tritt sie auf?
-              <br />(
               <a href="https://www.antidiskriminierungsstelle.de/DE/Home/home_node.html">
-                https://www.antidiskriminierungsstelle.de/DE/Home/home_node.html
+                Was bedeutet Diskriminierung und in welchen Formen tritt sie
+                auf?
               </a>
-              )
             </p>
             <p>
-              Wie kann ich mich engagieren? Welche Projekte und Bewegungen gibt
-              es in meiner Umgebung? <br />(
               <a href="http://www.buendnis-toleranz.de">
-                http://www.buendnis-toleranz.de
+                Wie kann ich mich engagieren? Welche Projekte und Bewegungen
+                gibt es in meiner Umgebung?
               </a>
-              )
             </p>
             <p>
               Auf den Twitterprofil von Strassengezwitscher{" "}
-              <span>(@streetcoverage)</span> wird über Aktionen, Konflikte und
-              Demonstrationen rund um das Thema Flüchtlinge und Asyl berichtet.
-              Das Ziel der Betreiber ist es möglichst nüchtern und objektiv
-              direkt von Brennpunkten aus zu twittern.
+              <a href="https://twitter.com/streetcoverage">@streetcoverage</a>{" "}
+              wird über Aktionen, Konflikte und Demonstrationen rund um das
+              Thema Flüchtlinge und Asyl berichtet. Das Ziel der Betreiber ist
+              es möglichst nüchtern und objektiv direkt von Brennpunkten aus zu
+              twittern.
             </p>
           </div>
           <div className="pen">
