@@ -36,10 +36,7 @@ const IndexPage = () => (
       <StartImage />
     </ImageWrapper>
     <Title>
-      <p>
-        Am 1. September sind Landtagswahlen in Sachsen, Brandenburg und
-        Thüringen.
-      </p>
+      <p>Am 1. September sind Landtagswahlen in Sachsen und Brandenburg.</p>
     </Title>
     <BodyText>
       <NormalText>
