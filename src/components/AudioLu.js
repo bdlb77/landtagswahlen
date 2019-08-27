@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import LuluAudio from "../media/audio.mp3"
 
-const useAudio = audioFile => {
+// const useAudio = audioFile => {
 //   const [audio] = useState(new Audio(audioFile))
 //   const [playing, setPlay] = useState(false)
 //   const togglePlay = () => setPlay(!playing)
