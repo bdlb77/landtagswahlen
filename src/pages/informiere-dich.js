@@ -212,7 +212,10 @@ const InformiereDich = () => {
             <p>
               Immer wieder aber trifft man auf Titeln wie
               diesen:„Rechtsextremismus - Der Osten muss erst mal seine eigene{" "}
-              <a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2019-03/rechts-extremismus-ostdeutschland-verantwortung-erwiderung">
+              <a
+                target="_blank"
+                href="https://www.zeit.de/gesellschaft/zeitgeschehen/2019-03/rechts-extremismus-ostdeutschland-verantwortung-erwiderung"
+              >
                 Geschichte aufarbeiten
               </a>
               “. Die in den Köpfen immer noch existierende Spaltung verstärkt
@@ -221,10 +224,18 @@ const InformiereDich = () => {
             </p>
             <p>
               Auch Puls hat einen Erklärungsversuch{" "}
-              <a href="https://www.youtube.com/-watch?v=3paOFE33UNE">gewagt</a>{" "}
+              <a
+                target="_blank"
+                href="https://www.youtube.com/-watch?v=3paOFE33UNE"
+              >
+                gewagt
+              </a>{" "}
               und einen kurzen Beitrag des WDR möchte ich euch als groben
               Einstieg in die Thematik außerdem ans{" "}
-              <a href="https://www1.w-dr.de/mediathek/video/sendungen/aktuelle-stun-de/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html">
+              <a
+                target="_blank"
+                href="https://www1.w-dr.de/mediathek/video/sendungen/aktuelle-stun-de/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html"
+              >
                 Herz legen
               </a>
               .
@@ -240,7 +251,10 @@ const InformiereDich = () => {
               Unbedingt lesen „Es kann auf eine dämonische Art befreiend sein,
               wenn von dir und den Leuten um dich herum nur noch das
               Schlechteste erwartet wird.“ –{" "}
-              <a href="https://taz.de/Jugendliche-in-Ostdeutschland/!5536453/">
+              <a
+                target="_blank"
+                href="https://taz.de/Jugendliche-in-Ostdeutschland/!5536453/"
+              >
                 aus einem Artikel
               </a>
               , der mich sprachlos macht. Der Fragen aufwirft. An meine
@@ -272,7 +286,10 @@ const InformiereDich = () => {
             <p>
               Auf dem Blog des Politologen und Landtagsabgeordneten Lasse Pet-
               ersdotter könnt ihr Euch kostenfrei eine Argumentationshilfe als{" "}
-              <a href="http://lasse-petersdotter.de/rechtspopulismus-beim-weihnachts-essen-eine-argumentationshilfe/">
+              <a
+                target="_blank"
+                href="http://lasse-petersdotter.de/rechtspopulismus-beim-weihnachts-essen-eine-argumentationshilfe/"
+              >
                 PDF
               </a>{" "}
               herunter laden, die ganz konkret auf ein Familienessen
@@ -280,13 +297,18 @@ const InformiereDich = () => {
             </p>
             <p>
               Besonders Beeindruckt hat mich die Initiative{" "}
-              <a href="https://www.kleinerfuenf.de/de">Kleiner Fünf</a> die sich
-              seit den Bundestagswahlen 2017 gegen rechtpopulistische Parteien
-              einsetzen. Das Team aus mitt- lerweile mehr als 100 jungen,
-              engagierten Menschen stellt jedem kos- tenfrei eine Fülle an
-              Informationen und Diskutionsleitfäden zur Verfü- gung. Alle
+              <a target="_blank" href="https://www.kleinerfuenf.de/de">
+                Kleiner Fünf
+              </a>{" "}
+              die sich seit den Bundestagswahlen 2017 gegen rechtpopulistische
+              Parteien einsetzen. Das Team aus mitt- lerweile mehr als 100
+              jungen, engagierten Menschen stellt jedem kos- tenfrei eine Fülle
+              an Informationen und Diskutionsleitfäden zur Verfü- gung. Alle
               Materialien findet ihr{" "}
-              <a href="https://www.kleinerfuenf.-de/de/unsere-materialien-fuer-dich">
+              <a
+                target="_blank"
+                href="https://www.kleinerfuenf.-de/de/unsere-materialien-fuer-dich"
+              >
                 hier
               </a>{" "}
               – unbedingt reinschauen, aufs Smartphone ziehen und verinnerlichen
@@ -307,7 +329,12 @@ const InformiereDich = () => {
             <p>
               Überprüfe Dich selbst immer wieder - Deinen Humor, Deine Grenzen.
               Welche Aussagen akzeptierst Du? Sensiblere Dich! Solche{" "}
-              <a href="https://www.youtube.com/watch?v=ZdPk-vfD-iM">Videos</a>{" "}
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=ZdPk-vfD-iM"
+              >
+                Videos
+              </a>{" "}
               und andere Erfahrungsberichte können helfen, immer wieder Empathie
               zu lernen. Bei Alltagsrassismus und rechten Tendenzen gilt es: den
               Opfern zuzuhören und deren Grenzen zu akzeptieren! Hilfreich dafür
@@ -318,12 +345,18 @@ const InformiereDich = () => {
               Das Thema Alltagsrassiusmus immer auf die Agenda holen. Wir müssen
               rassismus- kritisch denken lernen und uns Umgang damit
               weiterbilden.{" "}
-              <a href="http://www.buendnis-toleranz.de/archiv/themen/gewaltpraeventi-on/170778/seminar-zum-thema-rechtspopulismus-erkennen-und-bekaempfen-jetzt-anmelden">
+              <a
+                target="_blank"
+                href="http://www.buendnis-toleranz.de/archiv/themen/gewaltpraeventi-on/170778/seminar-zum-thema-rechtspopulismus-erkennen-und-bekaempfen-jetzt-anmelden"
+              >
                 Seminare
               </a>{" "}
               und Workshops helfen dabei ungemein. Du kannst beispielsweise
               einen entsprechenden{" "}
-              <a href="https://detektor.fm/gesellschaft/rassis-mus-workshops">
+              <a
+                target="_blank"
+                href="https://detektor.fm/gesellschaft/rassis-mus-workshops"
+              >
                 Workshop
               </a>{" "}
               in Deiner Firma initiieren.
@@ -334,20 +367,25 @@ const InformiereDich = () => {
           <div className="info">
             <h1>Infomaterial</h1>
             <p>
-              <a href="https://www.antidiskriminierungsstelle.de/DE/Home/home_node.html">
+              <a
+                target="_blank"
+                href="https://www.antidiskriminierungsstelle.de/DE/Home/home_node.html"
+              >
                 Was bedeutet Diskriminierung und in welchen Formen tritt sie
                 auf?
               </a>
             </p>
             <p>
-              <a href="http://www.buendnis-toleranz.de">
+              <a target="_blank" href="http://www.buendnis-toleranz.de">
                 Wie kann ich mich engagieren? Welche Projekte und Bewegungen
                 gibt es in meiner Umgebung?
               </a>
             </p>
             <p>
               Auf den Twitterprofil von Strassengezwitscher{" "}
-              <a href="https://twitter.com/streetcoverage">@streetcoverage</a>{" "}
+              <a target="_blank" href="https://twitter.com/streetcoverage">
+                @streetcoverage
+              </a>{" "}
               wird über Aktionen, Konflikte und Demonstrationen rund um das
               Thema Flüchtlinge und Asyl berichtet. Das Ziel der Betreiber ist
               es möglichst nüchtern und objektiv direkt von Brennpunkten aus zu

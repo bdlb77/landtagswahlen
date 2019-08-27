@@ -65,7 +65,7 @@ const HeaderStyled = styled.header`
     a {
       font-size: 20px;
       padding: 1rem;
-      width: 200px;
+      width: 250px;
     }
     ${Nav} {
       flex-direction: column;
