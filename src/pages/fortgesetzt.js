@@ -102,14 +102,14 @@ const Fortgesetzt = () => (
         jedes Körperteil halten wir bereitwillig in die Kamera. Weil wir darüber
         reden müssen.<br></br> Und das müssen wir. Das müssen wir! Und noch
         mehr!
-        <p style={{ fontSize: "3rem", fontWeight: "lighter" }}>
+        <p style={{ fontSize: "19px", fontWeight: "lighter" }}>
           Also: Was wählst Du?
         </p>
         Und die Frage muss nicht im großen Stil beantwortet werden. Vor keinem
         Publikum.  Aber im kleinen.  Und aus dem Herzen. Mit der ausreichenden
         Portion an Informationen.
         <br></br>
-        <p style={{ fontSize: "3rem", fontWeight: "lighter" }}>
+        <p style={{ fontSize: "19px", fontWeight: "lighter" }}>
            Also: Was wählst Du? Und weißt Du, was Deine Eltern wählen?
         </p>
       </NormalText>

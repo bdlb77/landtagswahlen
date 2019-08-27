@@ -177,12 +177,14 @@ const Seite3 = () => (
         Infomaterial herausgesucht:
       </NormalText>
       <FingerAndCircle>
-        <Circle color={props => props.theme.primary}>
-          <h1>Informiere Dich hier!</h1>
-          <div className="pic">
-            <HandPic />
-          </div>
-        </Circle>
+        <Link to="/informiere-dich/#infomaterial" style={{ cursor: "pointer" }}>
+          <Circle color={props => props.theme.primary}>
+            <h1>Informiere Dich hier!</h1>
+            <div className="pic">
+              <HandPic />
+            </div>
+          </Circle>
+        </Link>
       </FingerAndCircle>
 
       <AuthorText>

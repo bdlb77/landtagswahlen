@@ -89,6 +89,9 @@ const InfoSection = styled.section`
     }
   }
   @media screen and (max-width: 450px) {
+    p {
+      font-size: 16px;
+    }
     .pen {
       width: 250px;
     }
@@ -160,6 +163,9 @@ const GridWrapper = styled.div`
     ${PictureSection}, ${KannSection}, ${GesprachSection}, ${AberSection} {
       width: 100%;
       padding: 1rem;
+      p {
+        font-size: 16px;
+      }
     }
   }
 `
@@ -365,7 +371,7 @@ const InformiereDich = () => {
         </GridWrapper>
         <InfoSection>
           <div className="info">
-            <h1>Infomaterial</h1>
+            <h1 id="infomaterial">Infomaterial</h1>
             <p>
               <a
                 target="_blank"

@@ -13,7 +13,6 @@ const QuoteText = styled.p`
   text-align: center;
   margin: 0 auto;
   font-family: "Garamond";
-  font-size: 30px;
 `
 
 const LinkWrapper = styled.div`
@@ -64,10 +63,10 @@ const BodyText = styled.section`
     width: 95%;
     ${NormalText} {
       margin: 1.5rem;
-      font-size: 2.5rem;
+      font-size: 16px;
     }
     ${QuoteText} {
-      font-size: 3rem;
+      font-size: 21px;
     }
   }
 `
