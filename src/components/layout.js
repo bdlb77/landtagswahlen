@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 import Header from "./header"
-import { FuturaMedItalic, GaramondOTF } from "../config/fonts"
+import { FuturaMedItalic, MyriadProRegOTF } from "../config/fonts"
 const theme = {
   primary: "rgb(231, 103, 64)",
   secondary: "rgb(253, 234, 226)",
@@ -28,8 +28,8 @@ const GlobalStyle = createGlobalStyle`
     src: local('Futura italic'), local('Futura-Italic'), url(${FuturaMedItalic}) format('truetype');
   }
   @font-face {
-    font-family: 'Garamond';
-    src: local('Garamond'), url(${GaramondOTF}) format('opentype');
+    font-family: 'Myriad-Pro';
+    src: local('Myriad-Pro'), url(${MyriadProRegOTF}) format('opentype');
   }
 
   html{
@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Futura-Italic', sans-serif;
   }
   p {
-    font-family: 'Garamond', sans-serif !important;
+    font-family: 'Myriad-Pro', sans-serif !important;
     font-size: 2.5rem;
   }
   *, *:before, *:after {
