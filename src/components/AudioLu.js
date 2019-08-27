@@ -8,21 +8,22 @@ const Svg = styled.svg`
   fill: ${props => props.theme.secondary};
 `
 
-// const useAudio = audioFile => {
-//   const [audio, setAudio] = useState(null)
-//   const [playing, setPlay] = useState(false)
-//   const togglePlay = () => setPlay(!playing)
-//   useEffect(() => {
-//     setAudio(new Audio(LuluAudio))
-//   }, [])
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause()
-//   }, [playing])
-//   return [playing, togglePlay]
-// }
+const useAudio = audioFile => {
+  const [audio, setAudio] = useState({})
+  const [playing, setPlay] = useState(false)
+  const togglePlay = () => setPlay(!playing)
+  useEffect(() => {
+    setAudio(new Audio(LuluAudio))
+  }, [])
+  useEffect(() => {
+    if (audio) {
+      playing ? audio.play() : audio.pause()
+    }
+  }, [playing])
+  return [playing, togglePlay]
+}
 const AudioLu = () => {
-  // const [playing, togglePlay] = useAudio(LuluAudio)
+  const [playing, togglePlay] = useAudio(LuluAudio)
   return (
     <Svg
       version="1.0"
@@ -31,7 +32,7 @@ const AudioLu = () => {
       height="1021.000000pt"
       viewBox="0 0 1280.000000 1021.000000"
       preserveAspectRatio="xMidYMid meet"
-      // onClick={togglePlay}
+      onClick={togglePlay}
     >
       <metadata>
         Created by potrace 1.15, written by Peter Selinger 2001-2017
