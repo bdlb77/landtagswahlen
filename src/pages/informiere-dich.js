@@ -358,7 +358,8 @@ const InformiereDich = () => {
               einen entsprechenden{" "}
               <a
                 target="_blank"
-                href="https://detektor.fm/gesellschaft/rassis-mus-workshops"
+                href="https://detektor.fm/kultur/rassismus-bei-der-em-eine-randerscheinung-in-den-medien
+                "
               >
                 Workshop
               </a>{" "}
