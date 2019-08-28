@@ -237,7 +237,7 @@ const InformiereDich = () => {
               Einstieg in die Thematik außerdem ans{" "}
               <a
                 target="_blank"
-                href="https://www1.w-dr.de/mediathek/video/sendungen/aktuelle-stun-de/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html"
+                href="https://www1.wdr.de/mediathek/video/sendungen/aktuelle-stunde/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html"
               >
                 Herz legen
               </a>
@@ -291,7 +291,7 @@ const InformiereDich = () => {
               ersdotter könnt ihr Euch kostenfrei eine Argumentationshilfe als{" "}
               <a
                 target="_blank"
-                href="http://lasse-petersdotter.de/rechtspopulismus-beim-weihnachts-essen-eine-argumentationshilfe/"
+                href="http://lasse-petersdotter.de/rechtspopulismus-beim-weihnachtsessen-eine-argumentationshilfe/"
               >
                 PDF
               </a>{" "}
