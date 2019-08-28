@@ -310,7 +310,7 @@ const InformiereDich = () => {
               Materialien findet ihr{" "}
               <a
                 target="_blank"
-                href="https://www.kleinerfuenf.-de/de/unsere-materialien-fuer-dich"
+                href="https://www.kleinerfuenf.de/de/unsere-materialien-fuer-dich"
               >
                 hier
               </a>{" "}
