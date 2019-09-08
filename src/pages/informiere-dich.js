@@ -217,7 +217,7 @@ const InformiereDich = () => {
               diesen:„Rechtsextremismus - Der Osten muss erst mal seine eigene{" "}
               <a
                 target="_blank"
-                href="https://www.zeit.de/gesellschaft/zeitgeschehen/2019-03/rechts-extremismus-ostdeutschland-verantwortung-erwiderung"
+                href="https://www.zeit.de/gesellschaft/zeitgeschehen/2019-03/rechtsextremismus-ostdeutschland-verantwortung-erwiderung"
               >
                 Geschichte aufarbeiten
               </a>
@@ -226,22 +226,15 @@ const InformiereDich = () => {
               schafft es der Artikel, differenziert zu sein.
             </p>
             <p>
-              Auch Puls hat einen Erklärungsversuch{" "}
+              Auch Puls hat einen{" "}
               <a
                 target="_blank"
-                href="https://www.youtube.com/-watch?v=3paOFE33UNE"
+                href=" https://www.youtube.com/watch?v=3paOFE33UNE&t=98s"
               >
-                gewagt
+                Erklärungsversuch gewagt
               </a>{" "}
               und einen kurzen Beitrag des WDR möchte ich euch als groben
-              Einstieg in die Thematik außerdem ans{" "}
-              <a
-                target="_blank"
-                href="https://www1.wdr.de/mediathek/video/sendungen/aktuelle-stunde/video-warum-ist-der-osten-so-anfaellig-fuer-rechts-100.html"
-              >
-                Herz legen
-              </a>
-              .
+              Einstieg in die Thematik außerdem ans Herz legen.
             </p>
             <p>
               Besonders ab Minute vier wird aktiv dazu aufgerufen, auf einander
