@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import ReactPlayer from "react-player"
-import LuluAudio from "../media/audio.mp3"
+import Part1 from "../media/PART_1.mp3"
+import Part2 from "../media/PART_2.mp3"
+import Part3 from "../media/PART_3.mp3"
+import Part4 from "../media/PART_4.mp3"
+import Part5 from "../media/PART_5.mp3"
+import Part6 from "../media/PART_6.mp3"
+import Part7 from "../media/PART_7.mp3"
 
 const Svg = styled.svg`
   height: 75px;
@@ -11,17 +17,30 @@ const Svg = styled.svg`
 
 const AudioLu = () => {
   const [playingM, setPlaying] = useState(false)
+  const [currentTrack, setCurrentTrack] = useState(Part1)
+  const trackArray = [Part1, Part2, Part3, Part4, Part5, Part6, Part7]
 
   const togglePlay = () => {
     setPlaying(!playingM)
   }
+
+  const changeTrack = () => {
+    if (currentTrack === Part7) return
+    const index = trackArray.indexOf(currentTrack)
+    const nextTrack = trackArray[index + 1]
+    return setCurrentTrack(nextTrack)
+  }
+  useEffect(() => {
+    setPlaying(true)
+  }, [currentTrack])
   return (
     <>
       <ReactPlayer
-        url={LuluAudio}
+        url={currentTrack}
         playing={playingM}
         height={0}
         width={0}
+        onEnded={changeTrack}
       ></ReactPlayer>
       <Svg
         version="1.0"
