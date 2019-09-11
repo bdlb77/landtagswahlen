@@ -17,7 +17,7 @@ const Svg = styled.svg`
 
 const AudioLu = () => {
   const [playingM, setPlaying] = useState(false)
-  const [currentTrack, setCurrentTrack] = useState(Part7)
+  const [currentTrack, setCurrentTrack] = useState(Part1)
   const trackArray = [Part1, Part2, Part3, Part4, Part5, Part6, Part7]
 
   const togglePlay = () => {
