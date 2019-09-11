@@ -17,7 +17,7 @@ const Svg = styled.svg`
 
 const AudioLu = () => {
   const [playingM, setPlaying] = useState(false)
-  const [currentTrack, setCurrentTrack] = useState(Part1)
+  const [currentTrack, setCurrentTrack] = useState(Part7)
   const trackArray = [Part1, Part2, Part3, Part4, Part5, Part6, Part7]
 
   const togglePlay = () => {
@@ -25,14 +25,17 @@ const AudioLu = () => {
   }
 
   const changeTrack = () => {
-    if (currentTrack === Part7) return
     const index = trackArray.indexOf(currentTrack)
-    const nextTrack = trackArray[index + 1]
+    let nextIndex = index + 1;
+    let nextTrack = trackArray[nextIndex]
+
+    if (nextIndex === 7) {
+      nextTrack = trackArray[0]
+      setPlaying(false)
+    }
     return setCurrentTrack(nextTrack)
   }
-  useEffect(() => {
-    setPlaying(true)
-  }, [currentTrack])
+
   return (
     <>
       <ReactPlayer
