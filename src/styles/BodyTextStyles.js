@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 const NormalText = styled.p`
-  font-weight: 600;
   font-size: 21px;
   span {
     font-weight: 200;
